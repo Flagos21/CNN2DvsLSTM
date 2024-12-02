@@ -1,0 +1,30 @@
+README: Predicción de Potencia Solar utilizando CNN2D y LSTM
+Este documento describe los pasos necesarios para ejecutar el proyecto completo, desde el preprocesamiento de los datos hasta la implementación y evaluación de los modelos CNN2D y LSTM. Asegúrate de seguir cuidadosamente cada paso y ajustar las rutas de archivo según tus necesidades.
+
+Requisitos Previos
+Python Instalado:
+
+Versiones recomendadas: Python 3.8 o superior.
+Librerías Necesarias: Instala las siguientes librerías ejecutando el comando:
+
+bash
+Copiar código
+pip install numpy pandas tensorflow scikit-learn matplotlib
+Archivo de Datos:
+
+Asegúrate de tener el archivo de datos (minidatasetGrande.csv) en tu máquina.
+
+Pasos para Ejecutar el Proyecto
+1. Preprocesamiento de Datos
+Este paso incluye la limpieza, escalado y preparación del archivo para ser utilizado por los modelos.
+
+Instrucciones:
+Cambia las rutas del archivo de entrada (input_file) y la salida (preprocessed_data.npz) según las ubicaciones en tu sistema.
+Ejecuta este código para generar el archivo preprocesado.
+
+2. Implementación de los Modelos CNN2D y LSTM
+Este paso incluye la carga de los datos preprocesados y la implementación de ambos modelos.
+
+Notas Finales
+Asegúrate de ajustar las rutas de los archivos según tus preferencias.
+Este README te guiará desde la preparación de los datos hasta la evaluación de los modelos.
